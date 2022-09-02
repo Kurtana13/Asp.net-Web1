@@ -1,0 +1,40 @@
+﻿@model IEnumerable<User>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br/>
+
+
+
+<table class = "table table-hover">
+    <div class = "text-end">
+        <a asp-controller = "User" asp-action = "CreateUser" class = "btn btn-primary" >
+            Create User
+        </a>
+    </div>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var obj in Model)
+        {
+            <tr>
+                <td>@obj.Id</td>
+                <td>@obj.Name</td>
+                <td>@obj.Email</td>
+                <td>
+                    <a asp-controller = "User" asp-action = "EditUser" asp-route-id="@obj.Id" class = "btn btn-primary">Edit</a>
+                    <a asp-controller = "User" asp-action = "DeleteUser" asp-route-id="@obj.Id"class = "btn btn-primary">Delete</a>
+                </td>
+            </tr>
+            
+        }
+    </tbody>
+</table>
+

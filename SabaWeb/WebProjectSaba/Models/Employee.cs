@@ -1,0 +1,14 @@
+﻿using Microsoft.Build.ObjectModelRemoting;
+using System.ComponentModel.DataAnnotations;
+namespace WebProjectSaba.Models
+{
+    public class Employee
+    {
+        [Key]
+        public int Id { get; set; }
+        [Required]
+        public string Name { get; set; }
+        [Required]
+        public string Position { get; set; }
+    }
+}
