@@ -1,0 +1,25 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1 class="text-lg-center">Login</h1>
+
+<div class="border p-3 p-4 text-center w-100">
+    <form method="post" asp-action="LoginPost">
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <input type="text" class="form" asp-for="Email" placeholder="Email Address" required />
+        </div>
+        <button class="btn btn-primary" type="submit">Login</button>
+        <br />
+        <br />
+        <a class="btn btn-primary" asp-action="Index">Back To List</a>
+    </form>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

@@ -6,7 +6,7 @@ namespace WebProjectSaba.Controllers
 {
     public class UserController : Controller
     {
-        private readonly ApplicationDbContext _db;
+        public readonly ApplicationDbContext _db;
         public UserController(ApplicationDbContext db)
         {
             _db = db;
@@ -102,6 +102,26 @@ namespace WebProjectSaba.Controllers
             _db.Users.Remove(user);
             _db.SaveChanges();
             return RedirectToAction("Index");
+
+        }
+
+        //GET
+        public IActionResult Login()
+        {
+            return View();
+        }
+        //POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult LoginPost(User obj)
+        { 
+            var user = _db.Users.Where(x => x.Email == obj.Email).SingleOrDefault();
+            if(user == null)
+            {
+                return NotFound();
+            }
+            
+            return RedirectToAction("DeleteUser",new {Id = user.Id});
 
         }
     }
