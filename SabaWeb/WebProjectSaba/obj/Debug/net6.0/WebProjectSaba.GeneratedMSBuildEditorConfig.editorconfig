@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebProjectSaba
 build_property.RootNamespace = WebProjectSaba
-build_property.ProjectDir = D:\Github\SabaWeb1\SabaWeb\WebProjectSaba\
+build_property.ProjectDir = D:\Github\Asp.net-Web1\SabaWeb\WebProjectSaba\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\Github\SabaWeb1\SabaWeb\WebProjectSaba
+build_property.MSBuildProjectDirectory = D:\Github\Asp.net-Web1\SabaWeb\WebProjectSaba
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/Home/Index.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/Home/Privacy.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/Shared/Error.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/Shared/View.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/Shared/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/User/CreateUser.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/User/CreateUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/User/DeleteUser.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/User/DeleteUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGVVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/User/EditUser.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/User/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/User/Index.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/_ViewImports.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/_ViewStart.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github/SabaWeb1/SabaWeb/WebProjectSaba/Views/Shared/_Layout.cshtml]
+[D:/Github/Asp.net-Web1/SabaWeb/WebProjectSaba/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q6z0969fzz

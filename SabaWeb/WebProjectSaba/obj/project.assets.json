@@ -10307,11 +10307,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\SabaWeb1\\SabaWeb\\WebProjectSaba\\WebProjectSaba.csproj",
+      "projectUniqueName": "D:\\Github\\Asp.net-Web1\\SabaWeb\\WebProjectSaba\\WebProjectSaba.csproj",
       "projectName": "WebProjectSaba",
-      "projectPath": "D:\\Github\\SabaWeb1\\SabaWeb\\WebProjectSaba\\WebProjectSaba.csproj",
+      "projectPath": "D:\\Github\\Asp.net-Web1\\SabaWeb\\WebProjectSaba\\WebProjectSaba.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\SabaWeb1\\SabaWeb\\WebProjectSaba\\obj\\",
+      "outputPath": "D:\\Github\\Asp.net-Web1\\SabaWeb\\WebProjectSaba\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
