@@ -36,6 +36,7 @@ namespace WebProjectSaba.Controllers
             {
                 _db.Users.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "User Created Successfully";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -67,7 +68,7 @@ namespace WebProjectSaba.Controllers
             if (ModelState.IsValid)
             {
                 _db.Users.Update(obj);
-                TempData["success"] = "Edited Succesfuly";
+                TempData["success"] = "User Edited Succesfuly";
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -101,6 +102,7 @@ namespace WebProjectSaba.Controllers
             }
             _db.Users.Remove(user);
             _db.SaveChanges();
+            TempData["success"] = "User Deleted Successfully";
             return RedirectToAction("Index");
 
         }
@@ -120,7 +122,7 @@ namespace WebProjectSaba.Controllers
             {
                 return View(obj);
             }
-            
+            TempData["success"] = "User Logged in Successfully";
             return RedirectToAction("DeleteUser",new {Id = user.Id});
 
         }
@@ -143,6 +145,7 @@ namespace WebProjectSaba.Controllers
             }
             _db.Users.Add(obj);
             _db.SaveChanges();
+            TempData["success"] = "User Registered Successfully";
             return RedirectToAction("Index");
         }
     }
