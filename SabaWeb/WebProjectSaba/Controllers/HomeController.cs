@@ -25,20 +25,6 @@ namespace WebProjectSaba.Controllers
             return View();
         }
 
-        ////GET
-        //public IActionResult Login()
-        //{
-        //    return View();
-        //}
-        ////POST
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public IActionResult LoginPost(User obj)
-        //{
-        //    var user = 
-        //    return View();
-        //}
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

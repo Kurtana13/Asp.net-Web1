@@ -113,16 +113,37 @@ namespace WebProjectSaba.Controllers
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult LoginPost(User obj)
+        public IActionResult Login(User obj)
         { 
             var user = _db.Users.Where(x => x.Email == obj.Email).SingleOrDefault();
             if(user == null)
             {
-                return NotFound();
+                return View(obj);
             }
             
             return RedirectToAction("DeleteUser",new {Id = user.Id});
 
+        }
+
+        //GET
+        public IActionResult Register()
+        {
+            return View();
+        }
+        //POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Register(User obj)
+        {
+            var similarEmailUser = _db.Users.Where(x => x.Email == obj.Email).SingleOrDefault();
+            if (similarEmailUser != null)
+            {
+                ModelState.AddModelError("Similar Email", "Email Already Exists");
+                return View(obj);
+            }
+            _db.Users.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
